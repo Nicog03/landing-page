@@ -81,6 +81,17 @@ a {
   border-radius: 5px;
   color: white;
   font-weight: 500;
+  transition: ease-out 0.1s;
+}
+
+.content button:hover {
+  background-color: #90baff;
+  cursor: pointer;
+}
+
+.content button:active {
+  background-color: white;
+  color: #3882f6;
 }
 
 .img-placeholder {
@@ -187,6 +198,18 @@ Call to action Section
   border-radius: 5px;
   padding: 5px 25px;
   color: white;
+  transition: ease-out 0.1s;
+}
+
+.call-to-action button:hover {
+  cursor: pointer;
+  background-color: #90baff;
+}
+
+.call-to-action button:active {
+  background-color: white;
+  color: #3882f6;
+  border: #3882f6 solid 2px;
 }
 
 /* ###################
