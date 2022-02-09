@@ -87,4 +87,33 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 50px;
+}
+
+.cards-content h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.square {
+  height: 150px;
+  aspect-ratio: 1/1;
+  border: #3882f6 solid 3px;
+  border-radius: 10px;
+}
+
+.cards {
+  display: flex;
+  gap: 55px;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  gap: 10px;
+  color: #1f2937;
 }
