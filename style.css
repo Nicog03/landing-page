@@ -155,7 +155,7 @@ a {
 }
 
 /* ###################
-    Quote Section
+Call to action Section
 #################### */
 
 .call-to-action {
@@ -175,4 +175,17 @@ a {
   border-radius: 5px;
   padding: 5px 25px;
   color: white;
+}
+
+/* ###################
+    Footer Section
+#################### */
+
+.footer-section {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
 }
