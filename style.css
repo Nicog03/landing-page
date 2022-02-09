@@ -37,5 +37,54 @@ li {
 
 a {
   text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.top-content {
+  display: flex;
+  padding: 100px 20px;
+  justify-content: center;
+  background-color: #1f2937;
+}
+
+.content {
+  flex: 1 2 auto;
   color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.content h2 {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.content p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.content button {
+  border: none;
+  background-color: #3882f6;
+  padding: 6px 25px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+}
+
+.img-placeholder {
+  height: auto;
+  width: 500px;
+  background-color: #ffffff;
+  margin-left: 30px;
+}
+
+.cards-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
