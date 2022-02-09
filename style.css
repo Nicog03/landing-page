@@ -12,6 +12,10 @@ body {
   height: 100vh;
 }
 
+/* ###################
+   Header Section
+#################### */
+
 .header {
   display: flex;
   align-items: center;
@@ -40,6 +44,10 @@ a {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+/* ###################
+ Top Content Section
+#################### */
 
 .top-content {
   display: flex;
@@ -83,6 +91,10 @@ a {
   margin-left: 30px;
 }
 
+/* ###################
+  Information Section
+#################### */
+
 .cards-content {
   display: flex;
   flex-direction: column;
@@ -116,4 +128,28 @@ a {
   width: 150px;
   gap: 10px;
   color: #1f2937;
+}
+
+/* ###################
+    Quote Section
+#################### */
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  align-self: center;
+}
+
+.quote h2 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote p {
+  font-weight: 900;
+  color: #1f2937;
+  align-self: flex-end;
 }
