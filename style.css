@@ -16,6 +16,12 @@ body {
    Header Section
 #################### */
 
+.header-content {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -23,6 +29,7 @@ body {
   background-color: #1f2937;
   color: white;
   padding: 20px;
+  flex: 1;
 }
 
 .header h1 {
@@ -54,6 +61,11 @@ a {
   padding: 100px 20px;
   background-color: #1f2937;
   justify-content: center;
+}
+
+.max-width {
+  width: 1000px;
+  display: flex;
 }
 
 .content {
