@@ -262,3 +262,8 @@ Call to action Section
   justify-content: center;
   padding: 35px;
 }
+
+.highlight {
+  color: #fa9a00;
+  font-weight: 500;
+}
